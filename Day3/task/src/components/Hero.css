@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: auto;
+    margin: 10px;
+}
+.himg{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.btn{
+    background: red;
+    position: absolute;
+    bottom: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+}

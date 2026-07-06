@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.mcard{
+    background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c{
+    background: sandybrown;
+    width: 300px;
+    color:black;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+.c:hover{
+    transform: scale(1.1 );
+    transition: ease-in;
+}
