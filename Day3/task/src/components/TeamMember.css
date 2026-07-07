@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.team-card{
+    width:250px;
+    text-align:center;
+    border:2px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:scale(1.08);
+}
+
+.team-img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.team-card h2{
+    margin-bottom:10px;
+}
+
+.team-card p{
+    color:gray;
+}

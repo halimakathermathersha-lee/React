@@ -1,4 +1,4 @@
-import image1 from "./assets/1.png";
+import image1 from "../src/assets/1.png";
 
 const Card = () => {
   return (

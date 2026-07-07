@@ -2,6 +2,9 @@ import logo from "../src/assets/logo.png"
 import Hero from "./components/Hero";
 import Movie from "./components/Movie";
 import "./App.css";
+import ProductGallery from "./components/ProductGallery";
+import TeamMember from "./components/TeamMember";
+
 const App=()=>{
   return(<>
   <div className="pcard">
@@ -16,6 +19,9 @@ const App=()=>{
   <br/>
   <Hero/>
   <Movie/>
+  <ProductGallery/>
+  <TeamMember/>
+  
   </>)
 }
 export default App
