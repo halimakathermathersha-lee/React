@@ -1,5 +1,5 @@
 import "./NetflixCard.css";
-import movieImg from "../assets/1.png";
+import movieImg from "../assets/1.jpg";
 
 function NetflixCard() {
 
