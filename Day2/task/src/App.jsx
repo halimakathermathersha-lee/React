@@ -1,4 +1,4 @@
-import Header from "./header"
+import Header from "./Header"
 import MyOwn from "./MyOwn"
 const greetingReact=()=>{
   return(<>
